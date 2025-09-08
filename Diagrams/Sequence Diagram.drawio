@@ -1,0 +1,564 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="QvruRTgkJkn1ztXlajO7">
+    <mxGraphModel dx="1056" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VMQEcDJkGILRsFR43LRz-1" value="Patient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="4245" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-2" value="System/Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="508" y="20" width="150" height="4245" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry x="70" y="156" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-4" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry x="70" y="1356" width="10" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-5" value="Doctor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="917" y="20" width="150" height="4245" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry x="70" y="1558" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-7" value="Hospital Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="20" width="150" height="4245" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-8" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry x="70" y="1945" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-9" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry x="70" y="2991" width="10" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-10" value="Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="20" width="150" height="4245" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-11" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="VMQEcDJkGILRsFR43LRz-10">
+          <mxGeometry x="70" y="3365" width="10" height="726" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-12" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="248" width="510" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-13" value="[First-Time User]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-12">
+          <mxGeometry x="30" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-14" value="[Returning User]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-12">
+          <mxGeometry y="155" width="510" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-15" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="610" width="1119" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-16" value="[Patient Actions on Homepage (Parallel)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-15">
+          <mxGeometry x="30" width="1089" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-17" value="" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-15">
+          <mxGeometry y="155" width="1119" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-18" value="" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-15">
+          <mxGeometry y="284" width="1119" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-19" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="84" y="1028" width="1119" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-20" value="[View Blogs/Interact (Loop)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-19">
+          <mxGeometry x="40" width="1079" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-21" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="1598" width="923" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-22" value="[Accept/Reject ]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-21">
+          <mxGeometry x="30" width="893" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-23" value="[Reject]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-21">
+          <mxGeometry y="155" width="923" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-24" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="1985" width="1123" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-25" value="[Accept/Reject (Alt)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-24">
+          <mxGeometry x="30" width="1093" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-26" value="[Reject]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-24">
+          <mxGeometry y="155" width="1123" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-27" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="74" y="1500" width="1143" height="795" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-28" value="[Doctor/Hospital Process Appointment (Parallel)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-27">
+          <mxGeometry x="30" width="1113" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-29" value="" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-27">
+          <mxGeometry y="413" width="1143" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-30" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="84" y="2461" width="919" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-31" value="[Doctor Manage Reviews/Blogs (Loop)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-30">
+          <mxGeometry x="40" width="879" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-32" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="84" y="2829" width="1347" height="514" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-33" value="[Hospital Manager Operations (Loop)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-32">
+          <mxGeometry x="40" width="1307" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-34" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="572" y="3717" width="863" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-35" value="[Approve/Reject (Alt)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-34">
+          <mxGeometry x="30" width="833" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-36" value="[Reject]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-34">
+          <mxGeometry y="207" width="863" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-37" value="Login/Signup (Sync: Enter Credentials/OTP)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-39" value="Return Session Token (Async: Auth Response)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-3" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-41" value="Display Carousel (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="326" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-43" value="Click Get Started (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-45" value="Load Homepage (Sync: Location-Based)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-47" value="Grant Location/Setup Profile (Sync: Picture/Info)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="538" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-49" value="Confirm Setup (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-51" value="Search Services (Sync: Filter Doctors/Hospitals)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="688" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-53" value="Return Results (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-55" value="Mark Favorite (Sync: Love Icon)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="817" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-57" value="Save to DB (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-59" value="Submit Query (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="946" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-61" value="Notify Hospital Manager (Async: Query Submitted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-63" value="Filter/Sort Blogs (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="1106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-65" value="Display Blogs (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="1158" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-67" value="Comment/React (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-69" value="Notify Doctor (Async: Blog Interaction)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="1262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-71" value="Notify Hospital (Async: Blog Interaction)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="1314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-73" value="Request Appointment (Sync: Select Date/Time)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="1376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-75" value="Forward Request (Async: To Doctor)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-4" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="798" y="1428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-77" value="Forward Request (Async: To Hospital)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-4" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="898" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-79" value="View Requests (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-6" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="1578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-81" value="Accept (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-6" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="1676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-83" value="Notify Acceptance (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="1728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-85" value="Reject (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-6" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="1826" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-87" value="Notify Rejection (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="1878" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-89" value="View Requests (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-8" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="899" y="1965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-90" value="27" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="VMQEcDJkGILRsFR43LRz-89">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="298" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-91" value="Accept (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-8" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="897" y="2063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-93" value="Notify Acceptance (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="2115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-95" value="Reject (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-8" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="897" y="2213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-97" value="Notify Rejection (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="2265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-99" value="Submit Review (Sync: Rate/Comment)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-1" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="2337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-101" value="Forward Review (Async: To Doctor)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="2389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-103" value="Forward Review (Async: To Hospital)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="2441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-105" value="View/Filter Reviews (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-5" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="2539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-107" value="Return Reviews (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="2591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-109" value="Reply to Review (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-5" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="2643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-111" value="Notify Reply (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="2695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-113" value="Create/Edit Blog (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-5" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="2747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-115" value="Update Blog List (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="2799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-117" value="View Reviews/Appointments (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-7" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="899" y="2907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-119" value="Return Data (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="2959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-121" value="Manage Doctors: Approve/Reject (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-9" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="899" y="3011" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-123" value="Notify Approval (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="3063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-125" value="Log Approval (Async: For Admin Oversight) " style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="3115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-127" value="Manage Cabins/Equipment/Ambulances (Sync: Update Status/Scan)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-7" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="899" y="3167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-129" value="Confirm Update (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="3219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-131" value="Handle Query: Reply/Resolve (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-7" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="899" y="3271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-133" value="Notify Resolution (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="3323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-135" value="Login/View Dashboard (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-11" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1013" y="3385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-137" value="Select Role/Category (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-11" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011" y="3437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-139" value="Return Records (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1008" y="3489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-141" value="CRUD Accounts/Moderators (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-11" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011" y="3541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-143" value="Update Doctor Account (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="3593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-145" value="Update Hospital Account (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="3645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-147" value="Review Listing Requests (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-11" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011" y="3697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-149" value="Approve (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-11" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011" y="3795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-151" value="Notify Doctor (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="3847" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-153" value="Notify Hospital (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="3899" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-155" value="Reject (Sync)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-11" target="VMQEcDJkGILRsFR43LRz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011" y="3997" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-157" value="Notify Rejection (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="4049" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-159" value="Notify Rejection (Async)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="VMQEcDJkGILRsFR43LRz-2" target="VMQEcDJkGILRsFR43LRz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896" y="4101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-161" value="Interactions of Panels" style="fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="95" width="1375" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VMQEcDJkGILRsFR43LRz-162" value="End of Key Sequences" style="fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="4131" width="1375" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
