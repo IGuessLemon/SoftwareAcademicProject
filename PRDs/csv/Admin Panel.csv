@@ -1,0 +1,25 @@
+﻿Item No.,Acceptance Criteria,Feature,Screen Definition,Specification,User Story
+23,"1. The Welcome Page should show a dropdown menu with options for doctor, hospital, services, and ambulance.
+2. Selecting a category should display a list of customer purchase records for that category.
+3. Admins should be able to filter records by date.
+4. Admins should be able to search records by hospital, doctor, user name, or user ID.
+5. The list should be clear, organized, and load quickly.
+6. If no records exist for the selected category, a message should indicate no data found.",Welcome page,"The Admin Welcome Page displays a dropdown menu for selecting categories like doctor, hospital, services, or ambulance. Upon selection, a list of customer purchase records for the chosen category appears. Admins can filter these records by date or search using hospital, doctor, user name, or user ID.",Can read history of everything,"As an admin, I want to select a service category and view its purchase history, with options to filter by date or search by hospital, doctor, or user details, so I can monitor customer activity efficiently."
+25,"1. The Moderator Page should include an option to manage moderator accounts.
+2. Selecting the moderator option should show a table of all existing moderator records.
+3. Each table row should have buttons to edit or delete the moderator account.
+4. An ""Add New"" button should open a form to create a new moderator profile.
+5. CRUD actions (create, read, update, delete) should be responsive and saved to the database.
+6. If no moderators exist, a message should indicate no records found.",Moderator Page,"The Moderator Page provides an option for admins to manage moderator accounts. Selecting the moderator option displays a table of all existing moderators. Admins can edit or delete moderator records from the table or click an ""Add New"" button to create a new moderator profile.","Can create, read, update and delete new moderators","As an admin, I want to manage moderator accounts by creating, viewing, editing, or deleting them, so I can control moderator access and roles efficiently."
+24,"1. The Dashboard should show a selector for choosing a user role (hospital, service, user, doctor).
+2. Selecting a role should display a table of all existing records for that role.
+3. Each table row should include options to edit or delete the record.
+4. Clicking ""Add New"" should open a form to create a new profile for the selected role.
+5. CRUD actions (create, read, update, delete) should be responsive and save to the database.
+6. If no records exist for the selected role, a message should indicate no data found.",Dashboard,"The Admin Dashboard displays a dropdown or selector for choosing a user role (hospital, service, user, doctor). After selection, a table lists all existing records for that role. Admins can edit or delete records directly from the table. An ""Add New"" button opens a form to create a new profile for the selected role.","Can Create, read, update and delete accounts, credentials, reports.","As an admin, I want to select a user role and manage its accounts, credentials, and reports by creating, editing, or deleting them, so I can control user data effectively."
+26,"1. Username/password changes should require current credentials.
+2. Adding/deleting a recovery email should send a verification link.
+3. Toggling 2FA/login notifications should save instantly.
+4. A confirmation message should show after any change.",Misc.,"The Misc Settings screen lets users update their username (with current username pre-filled), change password (requires current password), and manage recovery email (add/delete triggers verification). It also includes toggle switches for two-factor authentication (2FA) and login notifications, with changes saved automatically.
+
+","Can change username, password","As a user, I want to update my security settings (username, password, recovery email, 2FA) so my account stays secure."
