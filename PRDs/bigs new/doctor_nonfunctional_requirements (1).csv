@@ -1,0 +1,73 @@
+Item No.,Quality Attribute,Acceptance Criteria,Feature,Screen Definition,Specification,User Story
+NF-D01,Performance,"1. Welcome page must load within 1.5 seconds on average devices
+2. Patient comments and reviews must display within 2 seconds
+3. Appointment requests must process Accept/Reject actions within 1 second
+4. Search functionality must return results within 500ms
+5. Blog post auto-save must occur every 10 seconds without user interruption
+6. Navigation between sections must complete within 1 second",System Performance,All doctor interface interactions must meet specified response times,Response time optimization for medical professionals,"As a doctor, I want fast system responses so I can efficiently manage patient care without delays."
+NF-D02,Performance,"1. System must support 500+ concurrent doctor users during peak hours
+2. Database queries for patient history must execute within 300ms
+3. Image uploads (profile pictures) must complete within 5 seconds for files up to 2MB
+4. Notification delivery to patients must occur within 30 seconds
+5. Memory usage should not exceed 100MB on mobile devices
+6. System must handle 50 appointment requests per doctor simultaneously",System Capacity,Doctor platform must handle expected medical professional workload,Processing capacity for healthcare operations,"As a healthcare administrator, I want the system to support multiple doctors simultaneously without performance issues."
+NF-D03,Reliability,"1. System uptime must be at least 99.7% to ensure medical service continuity
+2. Doctor data backup must occur every 2 hours automatically
+3. Failed notification attempts to patients must retry automatically up to 5 times
+4. System must gracefully handle network interruptions and resume operations
+5. Critical doctor actions (Accept/Reject appointments) must be logged with redundancy
+6. Maximum system recovery time after failure should be 10 minutes",Medical Service Reliability,Doctor platform must provide uninterrupted medical service access,High availability for healthcare operations,"As a doctor, I want reliable system access for patient care so medical services aren't disrupted."
+NF-D04,Security,"1. All doctor credentials must be encrypted using bcrypt with medical-grade security
+2. Patient data access must be logged with timestamp and doctor ID
+3. All communications must use HTTPS/TLS 1.3 encryption
+4. Doctor sessions must expire after 12 hours for security
+5. Failed login attempts limited to 3 tries before temporary account lock
+6. Multi-factor authentication required for sensitive patient data access",Medical Data Security,Doctor platform must protect patient information and medical records,Healthcare data protection and encryption,"As a doctor, I want complete security for patient information to maintain medical confidentiality."
+NF-D05,Security,"1. Role-based access control must restrict doctor actions based on specialization
+2. Patient notification system must validate doctor authorization before sending
+3. Blog post publishing must require doctor verification
+4. Hospital listing requests must be validated through admin approval process
+5. Audit trails must track all patient data access for compliance
+6. API endpoints must validate doctor credentials for every request",Access Control,Doctor platform must implement medical professional authorization,Medical professional access management,"As a medical administrator, I want controlled access to ensure only authorized doctors can perform specific actions."
+NF-D06,Security,"1. Patient data must comply with healthcare privacy regulations (HIPAA equivalent)
+2. Doctor profile information must be encrypted at rest
+3. Patient communication logs must be retained for minimum 7 years
+4. Data anonymization must be available for research purposes
+5. Doctor account deletion must securely remove all associated patient data
+6. Third-party integrations must meet medical data protection standards",Healthcare Compliance,Doctor platform must meet medical industry privacy and compliance standards,Medical data privacy and regulatory compliance,"As a compliance officer, I want the doctor platform to meet all healthcare data protection requirements."
+NF-D07,Usability,"1. Doctor interface must be optimized for tablet use (primary device for medical professionals)
+2. Touch targets must be minimum 48px for use with medical gloves
+3. High contrast mode must be available for use in various lighting conditions
+4. Text must scale from 16px to 24px for different vision needs
+5. Voice input support for hands-free operation during patient care
+6. Interface must be usable with one-hand operation for mobile use",Medical Professional Accessibility,Doctor interface must accommodate medical work environment needs,Healthcare professional usability requirements,"As a doctor, I want an interface designed for medical environments so I can work efficiently during patient care."
+NF-D08,Usability,"1. Critical actions (Accept/Reject appointments) should be completable in 2 clicks
+2. Patient information should be accessible within 3 seconds of search
+3. Error messages must provide clear medical context and solutions
+4. Interface should follow medical software design standards
+5. Emergency patient information must be prominently displayed
+6. Workflow should minimize interruptions to patient care",Medical Workflow Optimization,Doctor platform must support efficient medical practice workflows,Healthcare professional user experience,"As a doctor, I want streamlined workflows that don't interfere with patient care activities."
+NF-D09,Maintainability,"1. Doctor platform code must maintain 85% test coverage
+2. Medical data schema changes must be backward compatible for 3 versions
+3. API versioning must support gradual updates without service interruption
+4. Comprehensive logging must be implemented for medical compliance auditing
+5. Database maintenance must not affect doctor availability during patient hours
+6. Code documentation must include medical workflow context",Healthcare System Maintenance,Doctor platform must support reliable maintenance without disrupting medical services,Medical software maintenance standards,"As a healthcare IT team, I want maintainable code that ensures continuous medical service delivery."
+NF-D10,Maintainability,"1. Real-time monitoring must track doctor platform performance metrics
+2. Automated alerts must notify administrators of system issues within 2 minutes
+3. Medical software updates must be deployable during off-peak hours only
+4. Patient data backup verification must occur daily with integrity checks
+5. Doctor feedback system must track usability issues for continuous improvement
+6. Rollback procedures must restore service within 15 minutes if updates fail",Medical Operations,Doctor platform must support 24/7 medical operations with minimal downtime,Healthcare operational maintenance,"As a medical operations manager, I want automated monitoring to ensure doctors can always access the platform."
+NF-D11,Scalability,"1. System must scale to support 10,000+ registered doctors
+2. Patient database must efficiently handle 100,000+ patient records per doctor
+3. Appointment system must support 1000+ simultaneous booking requests
+4. Blog system must handle high-traffic medical content distribution
+5. Notification system must scale to send 50,000+ patient messages daily
+6. Geographic distribution must support doctors in multiple regions",Medical Platform Scalability,Doctor platform must grow with expanding healthcare network,Healthcare system capacity planning,"As a healthcare network administrator, I want scalable infrastructure to support growing medical services."
+NF-D12,Scalability,"1. New medical specializations must be configurable without code changes
+2. Integration with hospital management systems must be plug-and-play
+3. Multi-language support must be extensible for international medical use
+4. Custom medical forms must be configurable by hospital administrators
+5. Third-party medical device integrations must follow standardized APIs
+6. Telemedicine features must be scalable for video consultations",Medical Feature Extensibility,Doctor platform must accommodate diverse medical practices and requirements,Healthcare system flexibility and extension,"As a medical software architect, I want extensible features that adapt to different medical practices and specializations."

@@ -1,0 +1,69 @@
+﻿Item No.,Feature,Specification,Screen Definition,User Story,Acceptance Criteria
+38,Welcome Page,Basic Information,"The Welcome Page displays the hospital’s basic information, with a profile picture and full name prominently shown in the header.
+
+","As a hospital manager, I want to see my profile picture and name on the welcome page so I can quickly confirm I’m logged into the correct account.","1. The hospital’s full name and profile picture should be clearly visible in the header.
+2. The profile picture should load without errors.
+3. The name should match the logged-in user's account details."
+39,,Can see most recent comments with view all options,"The hospital’s dashboard shows recent patient comments/reviews below the header, with a ""View All"" button. Clicking it opens a detailed view showing all comments, reply functionality, and a rating breakdown analysis.","As a hospital manager, I want to see and manage patient feedback so I can respond to reviews and understand my ratings.","1. The system should display 3-5 most recent comments by default.
+2. A ""View All"" button should expand to show the complete feedback history.
+3. Each comment should have a reply button that opens a text input.
+4. The rating breakdown should show scores by category (bedside manner, etc.).
+5. All comments should load within 2 seconds."
+40,,Can see list of serial appointed by patient with view all options,"The Appointment Requests page shows a list of patient-requested appointment slots with patient details. Each entry has Accept/Reject buttons. A ""View All"" option expands the list to show full appointment history.","As a hospital manager, I want to review and manage appointment requests so I can control my schedule.","1. Each request should display:
+    1.1 Patient name
+    1.2 Requested date/time
+2. Accept/Reject buttons should respond instantly.
+3. The system should notify patients of the doctor's action."
+41,Accessing essential features quickly,Welcome Page,"The welcome page includes quick-access icons for key features (account, reviews, blog management). The main welcome icon returns to homepage when clicked.","As a hospital manager, I want quick access to important features from the welcome page so I can navigate efficiently.","1. The welcome icon should redirect to homepage when clicked.
+2. Quick-access buttons should include:
+   2.1 Account management
+    2.2 Patient reviews
+    2.3 Blog posts
+3. All buttons should respond within 1 second."
+42,,Account Options,"The Account Options screen allows doctors to:
+ - Update profile details (picture, name, degrees, location, date of birth)
+ - Delete/deactivate account
+ - Log out
+ - Request to be listed in the hospital’s doctor directory","As a hospital manager, I want to manage my account details and visibility so my information stays current and secure.","
+1. Profile edits should save instantly with confirmation.
+2. Delete/deactivate should require password confirmation.
+3. Hospital listing requests should:
+    3.1 Trigger via button
+    3.2 Show ""Pending"" status until approval
+4. Logout should redirect to login screen."
+43,,Reviews,"The Reviews tab displays all patient feedback with filtering options (by star rating and comment keywords). Each review shows the patient name, date, rating, and full comment.","As a hospital manager, I want to view and filter patient reviews so I can track my performance and patient satisfaction.","1. All reviews should load within 2 seconds
+2. Filter buttons should allow 1-5 star ratings and comment searches
+3. Each review should display:
+    Username
+    Date
+    Star rating
+    Full comment text
+4. Filters should apply instantly"
+44,,Blog page,"The Blog Page displays the doctor's existing blog posts in a list. An ""Add New"" button opens an editor for creating posts. Tap-and-hold on any blog title reveals Edit/Delete options.","As a hospital manager, I want to create and manage blog posts so I can share medical knowledge with patients.","1. The ""Add New"" button should open a blank blog editor.
+2. Tap-and-hold on titles should show Edit and Delete options.
+3. The system should autosave drafts every 10 seconds.
+4. Published posts should appear immediately in the list."
+45,Aside panel options for navigating to features quickly,Can see and create read update and delete doctor lists,"A paginated table with Approved doctors list (Name, Specialty, Join Date), Pending approvals section (with Review Documents button), Action buttons: Approve/Reject and Search bar with filters (Name, Specialty, Status) will be shown","As a hospital manager, I want to manage doctor listings to ensure only qualified practitioners are onboarded.","1. New requests should appear in real-time
+2. Approvals should add doctors to whitelist immediately
+3. Rejected applicants should receive email notification
+4. Search should return results within 2 seconds"
+46,,Can see the requested list of doctor queued for approve,It can accept request of doctor to whitelist doctor. Hospital can remove existing doctor name from doctor list.,"As an hospital manager, I want to manage doctors to keep our team qualified.","1. New requests should appear instantly
+2. Approve/reject should work with one click
+3. Search should deliver fast results"
+47,,Cabin section where all the cabin related things will maintains,"This screen presents a visual floor plan with color-coded cabin markers (green=free, red=reserved, gray=not available). Clicking any cabin opens a detail panel showing current reservation info and allows status changes. An ""Add Cabin"" button opens a form to register new cabins with number, floor, and type fields.","As a hospital manager, I want to monitor and update cabin statuses to optimize hospital capacity.","1. Status changes should save instantly
+2. New cabins should appear on map in real-time
+3. System should prevent double-booking
+4. Interface should work on tablets/desktops"
+48,,All track list of equipents,"The equipment screen shows a sortable table of all medical devices, including columns for ID number, current user, checkout date, and due date. Overdue items appear in red, with action buttons to check items in/out. A barcode scanner integration allows quick updates via device ID scanning.","As an manager, I need to track device usage to prevent shortages.","1. Real-time availability
+2. Auto-alerts for overdue items
+3. Scanner-compatible checkout"
+49,,Track list of ambulance,This screen combines a live GPS map showing ambulance locations with a status panel. Each ambulance appears as a moving icon with current status (Available/Returning).,"As an manager, I need real-time ambulance tracking to ensure rapid response.","1. Location data should update every 10 seconds
+2. Status should change with single-tap interaction
+3. System should remain functional during network outages
+4. Maintenance schedules should be clearly displayed"
+50,,Section for handling users queries,"The query interface displays patient messages in a ticket format, with unanswered queries at the top highlighted in yellow. Each ticket shows the patient ID, submission time, and question summary. Staff can click to open a reply editor with saved response templates and mark tickets as resolved.","As support staff, I need to respond to patient inquiries to improve service.","
+1. New queries should blink for visibility
+2. Resolved tickets should auto-archive after 7 days
+3. Search should find tickets by:
+    3.1 Keywords
+    3.2 Ticket ID"

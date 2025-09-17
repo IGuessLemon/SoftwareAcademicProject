@@ -1,0 +1,120 @@
+﻿Item No.,Acceptance Criteria,Feature,Screen Definition,Specification,User Story
+3,"1. On the first app open, the login screen should show options for Gmail, Facebook, or email/password login.
+2. A ""Forgot Password"" link should be displayed below the Sign-in button.
+3. A ""Create an Account"" button should lead to a signup form asking for email, password (8+ characters), first name, last name, and phone number.
+4. After filling the signup form, a ""Send Code"" button should send an OTP to the provided email.
+5. Entering the correct OTP should register the account in the database.
+6. The signup form should validate the email and password (minimum 8 characters).
+7. The login screen should appear unless the user is already authenticated.",Role based Authentication and authorization,"When the web app opens for the first time, users see a login screen with options to sign in using Gmail, Facebook, or email and password. A ""Forgot Password"" link appears below the Sign-in button. A ""Create an Account"" button leads to a signup form requiring a valid email, password (minimum 8 characters), first name, last name, and phone number. After completing the form, users click ""Send Code"" to receive an OTP via email. Entering the correct OTP completes account registration.",Login or signup,"As a new or returning user, I want to log in or sign up easily with social media or email, and verify my account with an OTP, so I can access the app securely."
+6,"1. On accessing the homepage, a prompt should ask for location permission or offer a map to select a location.
+2. If the user grants location permission, the app should detect and use their current location.
+3. If the user denies permission, they should be able to manually select coordinates on a map.
+4. The app should display information based on the detected or selected location.
+5. Users should not be able to access the homepage until a location is provided.",Location based service,"Upon accessing the homepage, users are prompted to allow location access or manually select their location on a map. Once a location is provided, the app displays personalized information based on that location.",User need to allow the permission of location or manually select the co-ordinate of location from maps,"As a user, I want to allow location access or pick my location on a map, so I can see information relevant to my area on the homepage"
+4,"1. After account creation, a profile setup screen should prompt the user to upload a profile picture.
+2. The screen should include an option to skip uploading a profile picture.
+3. If the user uploads a picture, it should be saved to their profile.
+4. If the user skips, the app should proceed without a profile picture.
+5. The upload feature should accept valid image formats (e.g., JPEG, PNG).",Set up profile,"Once a user creates an account, a profile setup screen appears, prompting them to upload a profile picture. Users can either upload an image or skip this step to proceed to the app.
+",upload profile picture,"As a new user, I want the option to upload a profile picture after signing up, so I can personalize my account or skip it if I prefer.
+"
+16,"1. The Order History page should list all past service usage with dates.
+2. Each entry should include a review button and a “Place Again” button.
+3. Clicking the review button should allow the user to submit a review for the service.
+4. Clicking “Place Again” should initiate a new order for the same service.
+5. The list should be clear, sorted by date, and load quickly.
+6. If no history exists, a message should indicate no past orders.","Allows access to key sections like Order History, Track Appointment etc","The Order History page shows a list of the user’s previous service usage, with each entry displaying the service date, a button to submit a review, and a “Place Again” button to reorder the service.",Order History menu,"As a user, I want to view my past service history with dates, submit reviews, and reorder services, so I can track my usage and easily repeat orders."
+19,"1. Each page opened should be added to the navigation history stack.
+2. Swiping right should navigate to the previous page, and swiping left should navigate to the next page.
+3. Swipe gestures should work smoothly on iOS devices.
+4. A back button should be visible on each page to return to the previous page.
+5. Navigation should be responsive, with no delays in moving forward or backward.
+6. The history stack should persist during the session, allowing accurate navigation.",Pushing history of navigation to the stack,"Every page accessed from another page is recorded in a navigation history stack. Users can swipe left to go forward or right to go back, with support for iOS devices. A back button on each page allows users to return to the previous page.","All the page that has been opened from another page, will be pushed to stack of history","As a user, I want my page navigation history saved, so I can swipe left or right or use a back button to move between pages easily, including on iOS devices."
+11,"1. A navigation bar should display icons or links for Home, Reviews, Blogs, and Account.
+2. Clicking the Home icon should navigate to the home screen page.
+3. The home screen should show location-based content and the services carousel.
+4. Navigation should be responsive and accessible across all sections.
+5. Switching between sections should be seamless with no noticeable delay.","Enables quick switching between Home, Reviews, Blogs, Account","The home screen includes a navigation bar with icons or links for Home, Reviews, Blogs, and Account. Clicking the Home icon directs the user to the home screen page, displaying location-based content and the carousel of services.",Home Screen icon,"As a user, I want to easily switch between Home, Reviews, Blogs, and Account using a navigation bar, so I can quickly access the home screen and other sections."
+21,"1. Each doctor’s profile page should have a rating and comment section at the bottom.
+2. Users should be able to submit a rating (e.g., 1-5 stars) for the doctor or hospital.
+3. Users should be able to add a comment with their rating.
+4. Submitted ratings and comments should be visible to other users.
+5. The feedback section should be clear and easy to use.
+6. Feedback submission should be quick and saved to the database.",Review Doctor and hospital,"On every doctor’s profile page, a section at the bottom shows rating and comment options, allowing users to submit their feedback about the doctor or associated hospital.",Can comment and rating to doctor and hospital,"As a user, I want to rate and comment on doctors and hospitals on their profile pages, so I can share my feedback and view others’ reviews."
+7,"1. The search bar must allow users to search by doctor name, hospital, or test with real-time results.
+2. A filter button must be placed beside the search bar to open filtering options.
+3. Users should be able to filter by doctor, hospital, disease type, specialist, or test name.",Home Screen," - User can find doctor, hospital or even test (like blood test, IgM, etc.)
+
+ - On the right side of search bar there will be a filter button. He can filter services (like doctor name, hospital name, type of disease, type of specialist, Test name etc.)",Search bar with filtering option,"As a user,I want to search and filter doctors, hospitals, or testsSo that I can find what I need quickly."
+22,"1. Tapping a doctor or hospital card on the homepage should open their profile page.
+2. The profile page should show name, expertise, gender, age, degrees, availability, location, ratings, and comments.
+3. Information should be clearly organized and easy to read.
+4. Ratings and comments from other users should be displayed.
+5. The profile page should load quickly and be accessible.
+6. If no ratings or comments exist, a message should indicate this.",Can see doctor and hospital profile,"Tapping a doctor or hospital card on the homepage opens their profile page, displaying key details like name, expertise, gender, age, degrees, availability, location, ratings, and comments. The profile is clear and well-organized for easy reading.","Can read all the essential information of hospital and doctor like age, degrees, availability, location, gender, age, name, ratings, comments etc.","As a user, I want to tap a doctor or hospital card to view their profile details, so I can learn about their expertise, availability, and feedback."
+20,"1. The payment screen should show mobile banking, card payment, and bank payment options for all services.
+2. For doctor appointments, ambulance rentals, and oxygen cylinder rentals, a cash-on-hand option should be available.
+3. For cabin bookings, only mobile banking, card, or bank payment options should be shown, with no cash-on-hand option.
+4. Payment options should be clearly displayed and easy to select.
+5. The payment process should be secure and complete without delay.
+6. Users should be informed if a selected payment method is unavailable for a specific service.",Payment Option,"When purchasing services, the payment screen offers options for mobile banking, card payment, or bank payment. For doctor appointments, ambulance rentals, and oxygen cylinder rentals, a cash-on-hand option is also displayed. For cabin bookings, only advance payment methods (mobile banking, card, or bank) are shown, excluding cash-on-hand.","Support mobile banking, card and pay cash by hand option (for limited services like appoinment)","As a user, I want to choose from multiple payment options for services, including cash for certain services, so I can pay conveniently, but pay in advance for cabin bookings."
+1,"1.The splash screen should show a blue background with a centered logo on app launch.
+2.It should display for 2 seconds if the front page loads within that time.
+3.It should stay visible until the content and DOM are fully loaded if longer than 2 seconds.
+4.The logo should be clear and centered, with a consistent blue background.
+1.2s",Welcome Screen,"Splash screen shows a blue background with centered logo on app launch.Displays for 2 seconds if front page loads within that time.Stays visible until content and DOM are fully loaded if longer than 2 seconds.Logo is clear and centered, with consistent blue background.",Splash Screen,"As a user, I want a splash screen with the app logo to display when I open the app, so I have an engaging start while it loads."
+,,,,,
+5,"1. After uploading or skipping the profile picture, a screen should prompt the user to enter gender, age, and address.
+2. The screen should include an option to skip entering basic information.
+3. If the user fills in the details, the information should be saved to their profile.",,"After completing the profile picture step, a screen appears asking users to enter basic information, including gender, age, and address. Users can choose to fill in the details or skip this step to continue to the app.",User must fill up basic information,"As a new user, I want the option to provide basic information like gender, age, and address after setting up my profile picture, so I can add personal details or skip if I prefer."
+18,"1. The Active Orders page should list all current bookings for rental services (e.g., ambulance, oxygen cylinder, cabin).
+2. Each booking should show status, rental duration, and service-specific details.
+3. The list should be clear, organized, and update in real time.
+4. The page should load quickly and be easy to navigate.
+5. If no active orders exist, a message should indicate no current bookings.",,"The Active Orders page lists all current rental service bookings, such as ambulances, oxygen cylinders, or cabins, showing details like booking status, rental duration, and specific service information.","Active Orders (Booked Cabin, oxygen cylinder, ambulance etc.)","As a user, I want to view my active rental service bookings, like ambulances or oxygen cylinders, so I can track their status and details."
+2,"1. On the first app open, a carousel with three full-screen slides should appear, each with a heading and an illustrated image.
+2. The third slide should show a ""Get Started"" button.
+3. Clicking ""Get Started"" should save cache data to record the action.
+4. The carousel should not show again on future app opens until the cookie expires.
+5. The slides should be swipe able, with clear headings and images.",,"For first-time users, the app shows a full-screen carousel with three slides, each featuring a heading and an illustrated image. The last slide includes a ""Get Started"" button. When clicked, a cookie is saved to mark the carousel as viewed, so it won’t reappear until the cookie expires.",Swipe Animation with Information with carousel effect for first time open,"As a first-time user, I want to see a carousel with information and a ""Get Started"" button, so I can learn about the app and start using it, with the carousel skipped on future visits."
+10,"1. Each carousel section (hospitals, services, doctors, tests) should have a ""View All"" button.
+2. Clicking ""View All"" should redirect the user to a new page with a complete list of items for that section.
+3. The listed items should be tailored to the user’s location (from location-based service).
+4. The new page should load quickly and display all relevant items clearly.
+5. If no location is provided, default or generic items should be shown.",,"In the carousel, each section (hospitals, services, doctors, tests) displays a ""View All"" button. Clicking it takes the user to a new page showing a complete list of items for that section, based on their location.",List of all available services,"As a user, I want to click a ""View All"" button in the carousel, so I can see a full list of hospitals, services, doctors, or tests on a separate page."
+15,"1. The User Profile Page should show options to delete or deactivate the account.
+2. Users should be able to edit name, password, email, phone number, address, and profile picture.
+3. Email and phone number changes should require verification (e.g., OTP).
+4. Updated information should be saved to the user’s profile.
+5. Account deletion or deactivation should be confirmed with a prompt.
+6. The interface should be clear, and all actions should work without delay.",,"The User Profile Page displays options to delete or deactivate the account and edit details like name, password, email, phone number, address, and profile picture. Changes to email or phone number require verification.",User profile page,"As a user, I want to manage my profile by updating my details or deleting/deactivating my account, so I can keep my information current or remove my account if needed."
+17,"1. The Track Appointment page should list all scheduled appointments.
+2. Each appointment should show the date, serial number, estimated waiting time, and running serial number.
+3. Details should be clear and updated in real time (if applicable).
+4. The page should load quickly and be easy to read.
+5. If no appointments exist, a message should indicate no scheduled appointments.","Allows access to key sections like Order History, Track Appointment etc","The Track Appointment page lists the user’s scheduled appointments, showing the date, serial number, estimated waiting time, and running serial number for each appointment, making it easy to track their status.",Track Appointment,"As a user, I want to track my appointments with details like date, serial number, and waiting time, so I can stay informed about my upcoming visits."
+12,"1. The Medicine Reminder page should show an alarm-like interface with a list of reminders.
+2. Tapping ""Add New"" should open a popup to set time, weekdays, alarm duration, and snooze.
+3. Long-pressing a reminder should show ""Edit"" and ""Remove"" options.
+4. Each reminder should have a toggle button to enable or disable the alarm.
+5. Edited reminders should update in the list, and removed reminders should be deleted.
+6. The interface should be clear, and actions (add, edit, remove, toggle) should work without delay.","Enables quick switching between Home, Reviews, Blogs, Account","The Medicine Reminder icon displays an alarm-style interface showing a list of reminders. Tapping ""Add New"" opens a popup to set time, weekdays, alarm duration, and snooze. Long-pressing a reminder shows ""Edit"" and ""Remove"" options. Each reminder has a toggle to turn the alarm on or off.",Medicine Reminder icon,"As a user, I want to manage medicine reminders with an alarm interface, so I can set, edit, remove, or toggle reminders easily."
+8,"1. A carousel should appear below the search bar, showing popular hospital names, services, doctors, and test names.
+2. Carousel content should be tailored to the user’s location (from location-based service).
+3. Users should be able to swipe or click to navigate through carousel items.
+4. Each carousel item should be clearly labeled and visually distinct (e.g., hospital names, doctor names, test names).",Home Screen,"Right below the search bar, a carousel displays a rotating list of popular hospital names, available services, doctors, and medical test names, customized based on the user’s location.",Most popular hospital lists on carousel effect,"As a user, I want to see a carousel of popular hospitals, services, doctors, and tests below the search bar, so I can quickly find relevant healthcare options in my area."
+13,"1. The Blog Page should show a list of clickable blog titles to read articles.
+2. A top bar should display topic categories for filtering articles.
+3. Users should be able to sort articles by latest time or doctor name.
+4. Users should be able to react to blog posts and add comments.
+5. Other users should be able to react to or reply to comments.
+6. All actions (filtering, sorting, reacting, commenting) should load quickly.",,"The Blog Page displays a list of blog titles that users can click to read articles. A top bar shows topic categories for filtering. Users can sort articles by latest time or doctor name, react to posts, and add comments. Other users can react to or reply to comments.",Blog Page Icon,"As a user, I want to read, filter, sort, react to, and comment on blog posts, so I can engage with health content and interact with others’ comments."
+9,"1. Each carousel item (hospital, service, doctor, or test) should have a clickable ""love icon"" in the corner.
+2. Clicking the ""love icon"" should mark the item as a favorite and save it to the user’s profile.
+3. Favorited items should be visually indicated (e.g., filled love icon).
+4. Users should be able to access their favorited items in a dedicated section or list.
+5. The favorite items should be saved in an SQLite3 database.",,"In the carousel displaying hospitals, services, doctors, or tests, each item has a ""love icon"" button in the corner. Clicking the icon marks the item as a favorite, saving it to the user’s profile for easy access later.",Favorite items on carousel effect,"As a user, I want to mark items in the carousel as favorites by clicking a love icon, so I can save and quickly access my preferred healthcare options."
+14,"1. The AI Doctor page should show a GPT-like chat interface.
+2. A side panel should display the user’s chat history.
+3. The main section should allow users to type and send messages to the AI.",,"The AI Doctor page features a chat interface with a side panel showing past conversations. The main section lets users type and send messages to the AI, receiving health-related responses in real time.",AI Doctor,"As a user, I want to chat with an AI Doctor and view my chat history, so I can get health advice and refer to past conversations easily."
+,,,,,

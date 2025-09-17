@@ -1,0 +1,57 @@
+﻿Item No.,Feature,Specification,Screen Definition,User Story,Acceptance Criteria
+30,Welcome Page,Basic Information,"The Welcome Page displays the doctor’s basic information, with a profile picture and full name prominently shown in the header.
+
+","As a doctor, I want to see my profile picture and name on the welcome page so I can quickly confirm I’m logged into the correct account.","1. The doctor's full name and profile picture should be prominently displayed in the profile header.
+2. The profile picture should load reliably without display errors or failures.
+3. The displayed name should exactly match the logged-in user's account information."
+31,,Can see most recent comments with view all options,"The doctor's dashboard shows recent patient comments/reviews below the header, with a ""View All"" button. Clicking it opens a detailed view showing all comments, reply functionality, and a rating breakdown analysis.","As a doctor, I want to see and manage patient feedback so I can respond to reviews and understand my ratings.","1. The interface should display the 3-5 most recent comments by default.
+2. A ""View All"" button should expand the section to show the complete feedback history when clicked.
+3. Each comment entry should include a reply button that opens a text input field.
+4. The rating breakdown should display scores by category (bedside manner, wait time, etc.).
+5. All comments and ratings should load within 2 seconds of page access."
+32,,Can see list of serial appointed by patient with view all options,"The Appointment Requests page shows a list of patient-requested appointment slots with patient details. Each entry has Accept/Reject buttons. A ""View All"" option expands the list to show full appointment history.","As a doctor, I want to review and manage appointment requests so I can control my schedule.","1. Each appointment request should display:
+    1.1 Patient's full name
+    1.2 Requested date and time
+2. The Accept/Reject buttons should process the doctor's response immediately with no delay.
+3. The system should automatically notify the patient when:
+    3.1 The doctor accepts their appointment request
+    3.2 The doctor rejects their appointment request"
+33,"Accessing quick toggles to some features like account page, account updates, reviews, managing blog etc.",Welcome Page,"The welcome page includes quick-access icons for key features (account, reviews, blog management). The main welcome icon returns to homepage when clicked.","As a doctor, I want quick access to important features from the welcome page so I can navigate efficiently.","1. The welcome icon should redirect users to the homepage when clicked.
+2. The interface should provide quick-access buttons for:
+    2.1 Account management functions
+    2.2 Patient review sections
+    2.3 Blog post archives
+3. All navigation buttons should respond to user interaction within one second of being clicked."
+34,,Account Options,"The Account Options screen allows doctors to:
+ - Update profile details (picture, name, degrees, location, date of birth)
+ - Delete/deactivate account
+ - Log out
+ - Request to be listed in the hospital’s doctor directory","As a doctor, I want to manage my account details and visibility so my information stays current and secure.","
+1. Profile edits should save automatically and display a confirmation message upon completion.
+2. Account deletion or deactivation should require password confirmation before processing.
+3. For hospital listing requests:
+    3.1 The request button should submit a formal application when clicked
+    3.2 The system should display ""Pending"" status until admin approval
+4. The logout function should automatically redirect users to the login screen."
+35,,Reviews,"The Reviews tab displays all patient feedback with filtering options (by star rating and comment keywords). Each review shows the patient name, date, rating, and full comment.","As a doctor, I want to view and filter patient reviews so I can track my performance and patient satisfaction.","1. All reviews should load and display within 2 seconds of page access.
+2. The filtering system should:
+    2.1 Provide rating filters for 1 to 5 stars
+    2.2 Include an option to filter by text comments
+3. Each review entry should display:
+    3.1 The reviewer's name
+    3.2 Submission date
+    3.3 Star rating (visual representation)
+    3.4 Complete comment text
+4. Applied filters should show results with near-instant response (under 0.5 second delay)."
+36,,Blog page,"The Blog Page displays the doctor's existing blog posts in a list. An ""Add New"" button opens an editor for creating posts. Tap-and-hold on any blog title reveals Edit/Delete options.","As a doctor, I want to create and manage blog posts so I can share medical knowledge with patients.","1. The ""Add New"" button should open a blank blog post editor when clicked.
+2. The interface should provide context menu options when users tap-and-hold on post titles:
+    2.1 Edit post
+    2.2 Delete post
+3. The system should automatically save drafts at 10-second intervals.
+4. Published posts should appear instantly in the blog post listing."
+37,,Histoy of patient,"The Patient History page displays a chronological list of all visited patients. Each entry shows the patient's name, visit date, and reason for consultation. A search bar allows filtering by name or date.","As a doctor, I want to view my patient visit history so I can track consultations and follow up when needed.","1. The system should display the 50 most recent visits by default.
+2. Each visit entry should clearly show:
+    2.1 Patient's full legal name
+    2.2 Complete visit timestamp        (date and exact time)
+3. The search functionality should filter and display matching results in real-time (under 500ms).
+4. The complete visit history should load within 3 seconds of page access."
